@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.din">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/yu"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/yu"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".skor"/>
+        <activity android:name=".latihan" />
+        <activity android:name=".kelasXII.Babtigadua" />
+        <activity android:name=".kelasXII.Babtigasatu" />
+        <activity android:name=".kelasXI.BabDuaempat" />
+        <activity android:name=".kelasXI.BabDuatiga" />
+        <activity android:name=".kelasXI.BabDuadua" />
+        <activity android:name=".kelasXI.BabDuasatu" />
+        <activity android:name=".kelasX.Babempatsatu" />
+        <activity android:name=".tentang" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".menuUtama" />
+        <activity android:name=".kelasX.BABtigasatu" />
+        <activity android:name=".kelasX.Babdua" />
+        <activity android:name=".kelasX.Babsatu" />
+        <activity android:name=".splas"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

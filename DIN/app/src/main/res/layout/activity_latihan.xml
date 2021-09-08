@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323232"
+    tools:context=".latihan">
+
+    <TextView
+        android:id="@+id/bermain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:text="Saatnya Bermain"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/White"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/nomor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textColor="@color/White"
+        android:textSize="25dp"
+        android:layout_below="@id/bermain"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/isi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="25dp"
+        android:textColor="@color/White"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/nomor"/>
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/isi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/a"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/abjad"
+        android:layout_below="@id/gambar"
+        android:text=" "
+        android:gravity="left|center_vertical"
+        android:paddingLeft="40dp"
+        android:textColor="#FFCCFFFF"
+        android:layout_marginTop="20dp"
+
+
+        />
+    <Button
+        android:id="@+id/b"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/abjad"
+        android:layout_below="@id/a"
+        android:text=" "
+        android:textColor="#FFCCFFFF"
+        android:layout_marginTop="5dp"
+
+        />
+    <Button
+        android:id="@+id/c"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/abjad"
+        android:layout_below="@id/b"
+        android:text=" "
+        android:gravity="left|center_vertical"
+        android:paddingLeft="40dp"
+        android:textColor="#FFCCFFFF"
+        android:layout_marginTop="5dp"
+
+
+        />
+    <Button
+        android:id="@+id/d"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/abjad"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="40dp"
+        android:layout_below="@id/c"
+        android:text=" "
+        android:textColor="#FFCCFFFF"
+        android:layout_marginTop="5dp"
+
+        />
+    <TextView
+        android:id="@+id/nilai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gambar"
+        android:text=" "
+        android:textColor="#000000"/>
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4682ad"
+    android:orientation="horizontal"
+    tools:context=".skor">
+
+    <RelativeLayout
+        android:id="@+id/q"
+        android:layout_width="375dp"
+        android:layout_height="409dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/untukkeluar"
+        android:gravity="center" />
+
+    <RelativeLayout
+        android:layout_width="366dp"
+        android:layout_height="389dp"
+        android:layout_below="@+id/q"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="-111dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/untukkeluar"
+        android:gravity="center"
+        android:rotation="180"
+        android:saveEnabled="false" />
+
+    <TextView
+        android:id="@+id/na"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HASIL SKOR"
+        android:layout_marginTop="40dp"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/skor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="50dp"
+        android:layout_below="@id/na"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/me"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="MENU"
+        android:layout_centerHorizontal="true"
+
+        android:layout_below="@id/skor"
+        />
+
+
+</RelativeLayout>

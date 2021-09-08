@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <!-- Layout for content is here. This can be a RelativeLayout  -->
+    <RelativeLayout
+        android:background="#ffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:minHeight="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:titleTextColor="@android:color/white"
+            android:fitsSystemWindows="true"
+            android:theme="@style/Theme.AppCompat"
+            android:background="@color/colorPrimary">
+        </androidx.appcompat.widget.Toolbar>
+
+        <RelativeLayout
+            android:background="#FFFFFF"
+            android:id="@+id/re2"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <Button
+                android:linksClickable="true"
+                android:id="@+id/X"
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:focusable="true"
+                android:layout_centerVertical="true"
+                android:text="Kelas X"
+                android:background="@drawable/btn"
+                android:layout_marginLeft="10dp"
+                />
+            <Button
+                android:id="@+id/XI"
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:background="@drawable/btn"
+                android:focusedByDefault="true"
+                android:linksClickable="true"
+                android:focusable="true"
+                android:layout_centerHorizontal="true"
+                android:text="Kelas XI"/>
+            <Button
+                android:id="@+id/XII"
+                android:layout_width="100dp"
+                android:background="@drawable/btn"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                android:focusable="true"
+                android:focusedByDefault="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:linksClickable="true"
+                android:text="Kelas XII"/>
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/a"
+            android:layout_width="370dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/re2"
+            android:background="#ffffff"
+            android:text=" "
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30dp"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            />
+        <Button
+            android:id="@+id/b"
+            android:layout_width="370dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/a"
+            android:background="#ffffff"
+            android:text=" "
+            android:layout_marginTop="0dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30dp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/c"
+            android:layout_width="370dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/b"
+            android:background="#ffffff"
+            android:text=" "
+            android:layout_marginTop="0dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30dp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/d"
+            android:layout_width="370dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/c"
+            android:background="#ffffff"
+            android:text=" "
+            android:layout_marginTop="0dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30dp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/e"
+            android:layout_width="370dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/d"
+            android:background="#ffffff"
+            android:text=" "
+            android:layout_marginTop="0dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30dp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/f"
+            android:layout_width="370dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/e"
+            android:background="#ffffff"
+            android:text=" "
+            android:layout_marginTop="0dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30dp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/g"
+            android:layout_width="370dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/f"
+            android:background="#ffffff"
+            android:text=" "
+
+            android:layout_marginTop="0dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30dp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/h"
+            android:layout_width="370dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/g"
+            android:background="#ffffff"
+            android:text=" "
+            android:layout_marginTop="0dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30dp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/i"
+            android:layout_width="370dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/h"
+            android:background="#ffffff"
+            android:text=" "
+            android:layout_marginTop="0dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30dp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/j"
+            android:layout_width="370dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/i"
+            android:background="#ffffff"
+            android:text=" "
+            android:layout_marginTop="0dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30dp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/k"
+            android:layout_width="370dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/j"
+            android:background="#ffffff"
+            android:text=" "
+            android:layout_marginTop="0dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30dp"
+            android:textColor="#000000"/>
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

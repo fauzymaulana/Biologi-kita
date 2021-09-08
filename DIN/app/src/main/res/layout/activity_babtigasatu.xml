@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    tools:context=".kelasX.BABtigasatu">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+
+       >
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:layout_marginTop="20dp"
+            android:text="VIRUS"/>
+        <TextView
+            android:id="@+id/sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/judul"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:text="Apa itu Virus ?"/>
+        <ImageView
+            android:id="@+id/foto"
+            android:layout_below="@+id/sub"
+            android:layout_width="200dp"
+            android:src="@drawable/virus"
+            android:layout_centerHorizontal="true"
+            android:layout_height="150dp"/>
+
+        <RelativeLayout
+            android:id="@+id/lic"
+            android:layout_below="@id/foto"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_width="370dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/isi"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:fadeScrollbars="true"
+                android:lineSpacingExtra="4sp"
+                android:textColor="@color/Black"
+                android:layout_marginRight="0dp"
+                android:text="      Virus adalah parasit mikroskopik yang menginfeksi sel organisme biologis. Virus bersifat parasit obligat, hal tersebut disebabkan karena virus hanya dapat bereproduksi di dalam material hidup dengan menginvasi dan memanfaatkan sel makhluk hidup karena virus tidak memiliki perlengkapan seluler untuk bereproduksi sendiri. Biasanya virus mengandung sejumlah kecil asam nukleat (DNA atau RNA, tetapi tidak kombinasi keduanya) yang diselubungi semacam bahan pelindung yang terdiri atas protein, lipid, glikoprotein, atau kombinasi ketiganya. Genom virus akan diekspresikan menjadi baik protein yang digunakan untuk memuat bahan genetik maupun protein yang dibutuhkan dalam daur hidupnya."
+                android:textSize="16sp"
+                />
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/isi2"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/isi"
+                android:textAlignment="center"
+                android:fadeScrollbars="true"
+                android:lineSpacingExtra="4sp"
+                android:textColor="@color/Black"
+                android:layout_marginRight="0dp"
+                android:text="      Istilah virus biasanya merujuk pada partikel-partikel yang menginfeksi sel-sel eukariota (organisme multisel dan banyak jenis organisme sel tunggal), sementara istilah bakteriofag atau fag digunakan untuk jenis yang menyerang jenis-jenis sel prokariota (bakteri dan organisme lain yang tidak berinti sel)."
+                android:textSize="16sp"
+                />
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/isi3"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/isi2"
+                android:textAlignment="center"
+                android:fadeScrollbars="true"
+                android:lineSpacingExtra="4sp"
+                android:textColor="@color/Black"
+                android:layout_marginRight="0dp"
+                android:text="      Virus sering diperdebatkan statusnya sebagai makhluk hidup karena ia tidak dapat menjalankan fungsi biologisnya secara bebas jika tidak berada dalam sel inang. Karena karakteristik khasnya ini virus selalu terasosiasi dengan penyakit tertentu, baik pada manusia (misalnya virus influenza dan HIV), hewan (misalnya virus flu burung), atau tanaman (misalnya virus mosaik tembakau/TMV)."
+                android:textSize="16sp"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>
